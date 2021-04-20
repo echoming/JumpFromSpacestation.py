@@ -71,6 +71,6 @@ del vector[0]
 plt.plot(300000 - x, vector)
 plt.show()
 
-print('Max Speed：%.30f' % max(vector))
-print('End Speed:%.30f' % vector[300000 - 1])
+print('Max Speed：%.30f m/s' % max(vector))
+print('End Speed:%.30f m/s' % vector[300000 - 1])
 
